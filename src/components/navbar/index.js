@@ -69,7 +69,7 @@ const Navbar = () => {
                     <div className="d-flex" style={{position: 'relative'}}>
                         {cartCount > 0 && 
                             <div className="circle cart-badge">
-                                <div className="text-white text-center f-10">{cartCount}{cartCount > 9 ? '+' : ''}</div>
+                                <div className="text-white text-center f-10">{cartCount > 9 ? 9 : cartCount}{cartCount > 9 ? '+' : ''}</div>
                             </div>
                         }
                         <img className="px-2" src={process.env.PUBLIC_URL + "/assets/img/header/bag.svg"} alt="bag" />
