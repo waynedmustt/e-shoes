@@ -1,0 +1,185 @@
+.t-40 {
+    top: 40px !important;
+}
+
+.pt-5-3 {
+    padding-top: 5.3rem !important;
+}
+
+.f-50 {
+    font-size: 50px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.f-10 {
+    font-size: 10px;
+}
+
+.f-700 {
+    font-weight: 700;
+}
+
+.f-600 {
+    font-weight: 600;
+}
+
+.f-400 {
+    font-weight: 400;
+}
+
+.w-80 {
+    width: 80vw !important;
+}
+
+.w-23 {
+    width: 23% !important;
+}
+
+.w-20-5 {
+    width: 20.5% !important;
+}
+
+.h-188 {
+    height: 188px;
+}
+
+.bg-navbar {
+    background-color: '#FFFFFF'
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.nav-item .active {
+    border-bottom: 1px solid #000000;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bg-top-header {
+    background-color: #F5F5F5;
+}
+
+.btn-lang {
+    border: unset !important;
+    background-color: #F5F5F5 !important;
+    color: #000000 !important;
+}
+
+.bg-top-header > .list {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    background: #F6F6F6;
+    border-radius: 10px;
+    color: #131212;
+    font-weight: 500;
+    height: 350px;
+    font-size: 18px;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.a-none {
+    color: #131212 !important;
+    text-decoration: none !important;
+}
+
+.spinner {
+    width: 100px !important;
+    display: block;
+    margin: auto;
+}
+
+.left > .box {
+    min-height: 644px;
+    width: 515px;
+}
+
+.sub-img {
+    justify-content: space-around;
+}
+
+.square {
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-sizing: border-box;
+}
+
+.square.active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.square.cart-color {
+    background-color: unset;
+    width: 25px;
+    height: 25px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.circle.cart-badge {
+    width: 15px;
+    height: 15px;
+    background-color: #FF0000;
+    position: absolute;
+    right: 0;
+    left: 18px;
+    top: -4px;
+}
+
+.detail-footer {
+    background-color: #F6F6F6;
+}
+
+.cart > thead {
+    background-color: #FAFAFA;
+}
+
+.cart > thead > tr > th {
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.cart > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.right {
+    float: right;
+}

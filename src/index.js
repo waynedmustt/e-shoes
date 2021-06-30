@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Provider from './core/provider';
+import 'bootstrap/dist/css/bootstrap.css';
+// eslint-disable-next-line
+import $ from 'jquery';
+// eslint-disable-next-line
+import Popper from '@popperjs/core';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'react-modal-video/scss/modal-video.scss';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider>
     <App />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );
 
