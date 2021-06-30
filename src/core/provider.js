@@ -21,6 +21,10 @@ const Provider = ({children}) => {
         toggleCartCount: () => {
             const selectedCart = coreService.getObjectItem('cart');
             if (!selectedCart) {
+                setAppState({
+                    ...state,
+                    cartCount: 0
+                });
                 return;
             }
             setAppState({
